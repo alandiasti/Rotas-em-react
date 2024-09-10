@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.footer {
+  position: fixed; /* Fixa o footer no fim da página */
+  bottom: 0; /* Posiciona o footer na parte inferior */
+  right: 0; /* Alinha o footer à direita */
+  width: 100%; /* Ocupa toda a largura da página */
+  background-color: #f1f1f1;
+  text-align: right; /* Alinha o texto à direita */
+  padding: 10px 20px;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); /* Opcional: sombra para dar um efeito visual */
+}
