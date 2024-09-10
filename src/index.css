@@ -17,12 +17,12 @@ code {
 }
 
 .footer {
-  position: fixed; /* Fixa o footer no fim da página */
-  bottom: 0; /* Posiciona o footer na parte inferior */
-  right: 0; /* Alinha o footer à direita */
-  width: 100%; /* Ocupa toda a largura da página */
+  position: fixed; 
+  bottom: 0; 
+  right: 0; 
+  width: 100%; 
   background-color: #f1f1f1;
-  text-align: right; /* Alinha o texto à direita */
+  text-align: right; 
   padding: 10px 20px;
-  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); /* Opcional: sombra para dar um efeito visual */
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); 
 }
